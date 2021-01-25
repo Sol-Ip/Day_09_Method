@@ -10,6 +10,7 @@ public class Exam_Exception2 {
 				System.out.println("intArray[" + i + "]" + "=" + intArray[i]);
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.getMessage());
 			System.out.println("배열의 인덱스가 범위를 벗어났습니다.");
 		}
 	}
